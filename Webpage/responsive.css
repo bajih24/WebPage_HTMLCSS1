@@ -1,0 +1,117 @@
+/* Laptop */
+@media (max-width: 1920px) {
+  html{
+    font-size: 75%;
+  }
+  .menu {
+    display: none;
+  }
+}
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  html{
+    font-size: 62.5%;
+  }
+  .content {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+    
+    .heading h2 {
+      font-size: 33px;
+    }
+
+    .content-icon-img {
+      width: 85%;
+    }
+
+    .heading-formulir h2 {
+      font-size: 33px;
+    }
+  }
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  html{
+    font-size: 55%;
+  }
+  .content {
+    width: 100%;
+  }
+    
+  footer {
+    text-align: center;
+  }
+    
+  .btn {
+    width: 100%;
+  }
+    
+  .facebook {
+    margin-bottom: 10px;
+  }
+    
+  .top-wrapper {
+    text-align: left;
+  }
+  .header-right{
+    display:none;
+  }
+  .menu{
+    visibility: visible;
+  }
+  .menu:hover{
+    visibility: visible;
+  }
+    
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+    
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .btn {
+    width: 50%;
+  }
+
+  .container h1, p {
+    text-align: center;
+  }
+
+  input, textarea {
+    width: 250px;
+    height: 25px;
+  }
+
+  .heading h2 {
+    font-size: 15px;
+  }
+
+  .heading-formulir h2 {
+    font-size: 15px;
+  }
+
+  .formulir-content p {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+  
+  .submit {
+    height: 50px;
+  }
+
+  .signup {
+    font-size: 12px;
+  }
+
+  .links a {
+    font-size: 12px;
+  }
+}
